@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">TIC TAC TOE</string>
+    <string name="UNJOUEUR">One player</string>
+    <string name="DEUXJOUEURS">Two players</string>
+    <string name="APROPOS">About game</string>
+    <string name="FERMER">Close</string>
+    <string name="Joueur1">Player 1</string>
+    <string name="Joueur2">Player 2</string>
+    <string name="Nomdujoueur1">name player 1</string>
+    <string name="Nomdujoueur2">name player 2</string>
+    <string name="Jouer">Play</string>
+    <string name="P1">Player 1: 0</string>
+    <string name="P2">Player 2 : 0</string>
+    <string name="reset">RESET</string>
+    <string name="HintOnePlayer">One player</string>
+    <string name="checkName">Invalid Name!</string>
+    <string name="draw">DRAW!</string>
+    <string name="won"> WON!</string>
+    <string name="aboutGame"> About game!</string>
+
+    <string name="linkWiki">https://en.wikipedia.org/wiki/Tic-tac-toe</string>
+
+</resources>

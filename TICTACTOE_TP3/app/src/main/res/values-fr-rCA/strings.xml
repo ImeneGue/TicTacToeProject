@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TIC_TAC_TOE_TP3</string>
+    <string name="UNJOUEUR">un joueur</string>
+    <string name="DEUXJOUEURS">Deux joueurs</string>
+    <string name="APROPOS">À propos</string>
+    <string name="FERMER">Fermer</string>
+    <string name="Joueur1">Joueur 1</string>
+    <string name="Joueur2">Joueur 2</string>
+    <string name="Nomdujoueur2">Nom du joueur2</string>
+    <string name="Nomdujoueur1">Nom du joueur1</string>
+    <string name="Jouer">Jouer</string>
+    <string name="P1">JOUEUR 1: 0</string>
+    <string name="P2">JOUEUR 2 : 0</string>
+    <string name="reset" >réinitialiser</string>
+    <string name="HintOnePlayer">Un seul joueur</string>
+    <string name="checkName">Nom invalid!</string>
+    <string name="draw">match nul!</string>
+    <string name="won"> a gagné!</string>
+    <string name="aboutGame"> à propos du jeu!</string>
+    <string name="linkWiki">https://fr.wikipedia.org/wiki/Tic-tac-toe</string>
+
+
+</resources>

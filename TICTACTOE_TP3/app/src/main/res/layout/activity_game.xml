@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/tictactoeTheme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundcolor"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.tic_tac_toe_tp3.GameActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/text_view_p1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="true"
+            android:text="@string/P1"
+            android:textColor="@color/whiteCream"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_view_p2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_view_p1"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="true"
+            android:text="@string/P2"
+            android:textColor="@color/whiteCream"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="20px">
+
+        <Button
+            android:id="@+id/button_00"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="7dp"
+            android:layout_weight="1"
+            android:background="@drawable/buttonshape"
+            android:padding="20dp"
+            android:paddingStart="20dp"
+            android:paddingTop="20dp"
+            android:paddingRight="20dp"
+            android:shadowColor="@color/white"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="10"
+            android:textColor="@color/yellowNeon"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            app:iconTint="@color/darkblue" />
+
+        <Button
+            android:id="@+id/button_01"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="7dp"
+            android:layout_weight="1"
+            android:background="@drawable/buttonshape"
+            android:padding="20dp"
+            android:paddingStart="20dp"
+            android:paddingTop="20dp"
+            android:paddingRight="20dp"
+            android:shadowColor="@color/white"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="10"
+            android:textColor="@color/yellowNeon"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            app:iconTint="@color/darkblue" />
+
+        <Button
+            android:id="@+id/button_02"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="7dp"
+            android:layout_weight="1"
+            android:background="@drawable/buttonshape"
+            android:padding="20dp"
+            android:paddingStart="20dp"
+            android:paddingTop="20dp"
+            android:paddingRight="20dp"
+            android:shadowColor="@color/white"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="10"
+            android:textColor="@color/yellowNeon"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            app:iconTint="@color/darkblue" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="20px">
+
+        <Button
+            android:id="@+id/button_10"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="7dp"
+            android:layout_weight="1"
+            android:background="@drawable/buttonshape"
+            android:padding="20dp"
+            android:paddingStart="20dp"
+            android:paddingTop="20dp"
+            android:paddingRight="20dp"
+            android:shadowColor="@color/white"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="10"
+            android:textColor="@color/yellowNeon"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            app:iconTint="@color/darkblue" />
+
+        <Button
+            android:id="@+id/button_11"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="7dp"
+            android:layout_weight="1"
+            android:background="@drawable/buttonshape"
+            android:padding="20dp"
+            android:paddingStart="20dp"
+            android:paddingTop="20dp"
+            android:paddingRight="20dp"
+            android:shadowColor="@color/white"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="10"
+            android:textColor="@color/yellowNeon"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            app:iconTint="@color/darkblue" />
+
+        <Button
+            android:id="@+id/button_12"
+            style="@style/tictactoeTheme"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="7dp"
+            android:layout_weight="1"
+            android:background="@drawable/buttonshape"
+            android:padding="20dp"
+            android:paddingStart="20dp"
+            android:paddingTop="20dp"
+            android:paddingRight="20dp"
+            android:shadowColor="@color/white"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="10"
+            android:textColor="@color/yellowNeon"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            app:iconTint="@color/darkblue" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="20px">
+
+        <Button
+            android:id="@+id/button_20"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="7dp"
+            android:layout_weight="1"
+            android:background="@drawable/buttonshape"
+            android:padding="20dp"
+            android:paddingStart="20dp"
+            android:paddingTop="20dp"
+            android:paddingRight="20dp"
+            android:shadowColor="@color/white"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="10"
+            android:textColor="@color/yellowNeon"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            app:iconTint="@color/darkblue" />
+
+        <Button
+            android:id="@+id/button_21"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="7dp"
+            android:layout_weight="1"
+            android:background="@drawable/buttonshape"
+            android:padding="20dp"
+            android:paddingStart="20dp"
+            android:paddingTop="20dp"
+            android:paddingRight="20dp"
+            android:shadowColor="@color/white"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="10"
+            android:textColor="@color/yellowNeon"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            app:iconTint="@color/darkblue" />
+
+        <Button
+            android:id="@+id/button_22"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="7dp"
+            android:layout_weight="1"
+            android:background="@drawable/buttonshape"
+            android:padding="20dp"
+            android:paddingStart="20dp"
+            android:paddingTop="20dp"
+            android:paddingRight="20dp"
+            android:shadowColor="@color/white"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="10"
+            android:textColor="@color/yellowNeon"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            app:iconTint="@color/darkblue" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_menu"
+        style="@style/tictactoeTheme"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginEnd="33dp"
+        android:background="@color/blue1"
+        android:hapticFeedbackEnabled="true"
+        android:text="menu"
+
+        android:textColor="@color/whiteCream"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_reset"
+        style="@style/tictactoeTheme"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+
+        android:layout_marginEnd="33dp"
+        android:background="@color/blue1"
+        android:hapticFeedbackEnabled="true"
+        android:text="@string/reset"
+        android:textColor="@color/whiteCream"
+        android:textStyle="bold" />
+
+</LinearLayout>
